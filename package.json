@@ -19,6 +19,10 @@
   },
   "homepage": "https://github.com/Benji171/amazini#readme",
   "dependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/node": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
     "@babel/register": "^7.10.1",
     "body-parser": "^1.19.0",
     "bootstrap": "^4.5.0",
@@ -29,11 +33,7 @@
     "mongoose": "^5.9.18",
     "nightwatch": "^1.3.6",
     "nodemon": "^2.0.4",
-    "save-dev": "0.0.1-security",
-    "@babel/cli": "^7.10.1",
-    "@babel/core": "^7.10.2",
-    "@babel/node": "^7.10.1",
-    "@babel/preset-env": "^7.10.2"
+    "save-dev": "0.0.1-security"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.1",
