@@ -7,7 +7,7 @@ import productRoute from './routes/productRoute';
 import orderRoute from './routes/orderRoute';
 import path from 'path'
 
-const mongodbUrl = config.MONGODB_URL;
+const mongodbUrl = "mongodb+srv://Benji:gumdrops@amzazinicluster.qserk.mongodb.net/amazinidatabase?retryWrites=true&w=majority";
 mongoose.connect(mongodbUrl, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
